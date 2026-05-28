@@ -255,25 +255,18 @@ $t = $texts[$lang];
 
     <footer>
 
+    <div class="footer-logo">
+        <h2>Aurora Resort</h2>
+    </div>
+
         <div class="footer-container">
-
-            <div>
-
-                <h3>Contact</h3>
-
-                <p>
-                    auroraresort@email.com <br>
-                    +373 00 000 000
-                </p>
-
-            </div>
+            
 
             <div>
 
                 <h3>Location</h3>
 
-                <p>
-                    Aurora Resort <br>
+                <p>Aurora Resort <br>
                     Brussels, Belgium
                 </p>
 
@@ -281,12 +274,32 @@ $t = $texts[$lang];
 
             <div>
 
-                <h3>Check-in / Check-out</h3>
+                <h3>Contact us:</h3>
 
                 <p>
-                    Check-in: 15:00 <br>
-                    Check-out: 11:00
+                    +373 69 000 000 <br>
+                     auroraresort@email.com
                 </p>
+
+            </div>
+
+            <div>
+
+                <div class="social-media">
+
+    <h3>Aurora Resort</h3>
+
+    <div class="social-links">
+
+        <a href="https://instagram.com" target="_blank">Instagram<br></a>
+        <a href="https://facebook.com" target="_blank">Facebook<br></a>
+        <a href="https://tiktok.com" target="_blank">TikTok<br></a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+
+    </div>
+
+</div>
+                
 
             </div>
 
