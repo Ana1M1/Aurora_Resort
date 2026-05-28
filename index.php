@@ -2,7 +2,7 @@
 
 $lang = "en";
 
-if(isset($_GET['lang'])){
+if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
 }
 
@@ -99,193 +99,203 @@ $t = $texts[$lang];
 
 <body>
 
-<section class="hero">
+    <section class="hero">
 
-    <div class="overlay"></div>
+        <div class="overlay"></div>
 
-    <div class="top-bar">
+        <div class="top-bar">
 
-        <a href="contact.php">
-            <button class="top-button">
-                <?php echo $t['contact']; ?>
-            </button>
-        </a>
+            <a href="contact.php">
+                <button class="top-button">
+                    <?php echo $t['contact']; ?>
+                </button>
+            </a>
 
-        <h1 class="logo">
-            Aurora Resort
-        </h1>
+            <h1 class="logo">
+                Aurora Resort
+            </h1>
 
-        <select id="languageSelect" class="language-select">
+            <select id="languageSelect" class="language-select">
 
-            <option value="en"
-                <?php if($lang == "en") echo "selected"; ?>>
-                EN
-            </option>
+                <option value="en"
+                    <?php if ($lang == "en") echo "selected"; ?>>
+                    EN
+                </option>
 
-            <option value="fr"
-                <?php if($lang == "fr") echo "selected"; ?>>
-                FR
-            </option>
+                <option value="fr"
+                    <?php if ($lang == "fr") echo "selected"; ?>>
+                    FR
+                </option>
 
-            <option value="ro"
-                <?php if($lang == "ro") echo "selected"; ?>>
-                RO
-            </option>
+                <option value="ro"
+                    <?php if ($lang == "ro") echo "selected"; ?>>
+                    RO
+                </option>
 
-        </select>
+            </select>
 
+        </div>
+
+        <div class="hero-center">
+
+            <a href="sign_up.php">
+                <button class="hero-button">
+                    <?php echo $t['signup']; ?>
+                </button>
+            </a>
+
+            <a href="login.php">
+                <button class="hero-button">
+                    <?php echo $t['login']; ?>
+                </button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="content-section">
+
+        <div class="info-card">
+
+            <div class="image-box">
+
+                <img src="images/Hotel_restaurant.webp" alt="">
+
+            </div>
+
+            <div class="text-box">
+
+                <h2>
+                    <?php echo $t['restaurant_title']; ?>
+                </h2>
+
+                <p>
+                    <?php echo $t['restaurant_text']; ?>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="info-card reverse">
+
+            <div class="image-box">
+
+                <img src="images/Pool_hotel.webp" alt="">
+
+            </div>
+
+            <div class="text-box">
+
+                <h2>
+                    <?php echo $t['pool_title']; ?>
+                </h2>
+
+                <p>
+                    <?php echo $t['pool_text']; ?>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <div class="image-box">
+
+                <img src="images/Hotel_Lobby.jpg" alt="">
+
+            </div>
+
+            <div class="text-box">
+
+                <h2>
+                    <?php echo $t['lobby_title']; ?>
+                </h2>
+
+                <p>
+                    <?php echo $t['lobby_text']; ?>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="location-section">
+
+        <h2 class="location-title">
+            <?php echo $t['location']; ?>
+        </h2>
+
+        <div class="map-box">
+
+            <div class="map-box">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56997.75173609873!2d4.358822828060475!3d50.850266694623144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2sBrussels%2C%20Belgium!5e0!3m2!1sen!2s!4v1779953860778!5m2!1sen!2s"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="reservation-text">
+        <?php echo $t['reservation']; ?>
     </div>
 
-    <div class="hero-center">
+    <footer>
 
-        <a href="sign_up.php">
-            <button class="hero-button">
-                <?php echo $t['signup']; ?>
-            </button>
-        </a>
+        <div class="footer-container">
 
-        <a href="login.php">
-            <button class="hero-button">
-                <?php echo $t['login']; ?>
-            </button>
-        </a>
+            <div>
 
-    </div>
+                <h3>Contact</h3>
 
-</section>
+                <p>
+                    auroraresort@email.com <br>
+                    +373 00 000 000
+                </p>
 
-<section class="content-section">
+            </div>
 
-    <div class="info-card">
+            <div>
 
-        <div class="image-box">
+                <h3>Location</h3>
 
-            <img src="images/Hotel_restaurant.webp" alt="">
+                <p>
+                    Aurora Resort <br>
+                    Brussels, Belgium
+                </p>
 
-        </div>
+            </div>
 
-        <div class="text-box">
+            <div>
 
-            <h2>
-                <?php echo $t['restaurant_title']; ?>
-            </h2>
+                <h3>Check-in / Check-out</h3>
 
-            <p>
-                <?php echo $t['restaurant_text']; ?>
-            </p>
+                <p>
+                    Check-in: 15:00 <br>
+                    Check-out: 11:00
+                </p>
 
-        </div>
-
-    </div>
-
-    <div class="info-card reverse">
-
-        <div class="image-box">
-
-            <img src="images/Pool_hotel.webp" alt="">
+            </div>
 
         </div>
 
-        <div class="text-box">
+    </footer>
 
-            <h2>
-                <?php echo $t['pool_title']; ?>
-            </h2>
-
-            <p>
-                <?php echo $t['pool_text']; ?>
-            </p>
-
-        </div>
-
-    </div>
-
-    <div class="info-card">
-
-        <div class="image-box">
-
-            <img src="images/Hotel_Lobby.jpg" alt="">
-
-        </div>
-
-        <div class="text-box">
-
-            <h2>
-                <?php echo $t['lobby_title']; ?>
-            </h2>
-
-            <p>
-                <?php echo $t['lobby_text']; ?>
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="location-section">
-
-    <h2 class="location-title">
-        <?php echo $t['location']; ?>
-    </h2>
-
-    <div class="map-box">
-
-        <!-- ADAUGĂ IMAGINEA HĂRȚII -->
-        <!-- images/map.jpg -->
-
-        <img src="images/map.jpg" alt="">
-
-    </div>
-
-</section>
-
-<div class="reservation-text">
-    <?php echo $t['reservation']; ?>
-</div>
-
-<footer>
-
-    <div class="footer-container">
-
-        <div>
-
-            <h3>Contact</h3>
-
-            <p>
-                auroraresort@email.com <br>
-                +373 00 000 000
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Location</h3>
-
-            <p>
-                Aurora Resort, Belgium
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Check-in / Check-out</h3>
-
-            <p>
-                Check-in: 15:00 <br>
-                Check-out: 11:00
-            </p>
-
-        </div>
-
-    </div>
-
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
