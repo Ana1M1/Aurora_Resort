@@ -154,6 +154,8 @@ $t = $texts[$lang];
 
     </section>
 
+ <button id="theme-button">ִֶָ࣪☾.</button>
+
     <section class="content-section">
 
         <div class="info-card">
@@ -165,6 +167,7 @@ $t = $texts[$lang];
             </div>
 
             <div class="text-box">
+                 
 
                 <h2>
                     <?php echo $t['restaurant_title']; ?>
@@ -297,10 +300,7 @@ $t = $texts[$lang];
         <a href="https://youtube.com" target="_blank">YouTube</a>
 
     </div>
-
-</div>
-                
-
+          
             </div>
 
         </div>

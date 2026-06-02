@@ -150,7 +150,7 @@ body {
 
 .text-box h2 {
 
-    color: #9c7b5c;
+    color: #6b4726;
 
     margin-bottom: 20px;
 
@@ -310,4 +310,13 @@ footer {
     background: #a8896a;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+#theme-button {
+  position: absolute;
+  right: 30px;
+  bottom: -8%;
+  border: none;
+  font-size: 40px;
+  background: none;
 }
