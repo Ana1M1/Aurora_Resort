@@ -21,7 +21,7 @@
 
 <section class="contact-hero">
 
-    <img src="images/Hotel_room_nudecolor.jpeg" class="contact-image" alt="Contact Background">
+    <img src="images/hotel-bathroom-marble.jpg" class="contact-image" alt="Contact Background">
 
     <div class="contact-overlay-bg"></div>
 

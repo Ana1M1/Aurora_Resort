@@ -311,4 +311,3 @@ $t = $texts[$lang];
 
 </body>
 
-</html>
