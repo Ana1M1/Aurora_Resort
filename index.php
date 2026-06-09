@@ -154,7 +154,7 @@ $t = $texts[$lang];
 
     </section>
 
- <button id="theme-button">ִֶָ࣪☾.</button>
+    <button id="theme-button">ִֶָ࣪☾.</button>
 
     <section class="content-section">
 
@@ -167,7 +167,7 @@ $t = $texts[$lang];
             </div>
 
             <div class="text-box">
-                 
+
 
                 <h2>
                     <?php echo $t['restaurant_title']; ?>
@@ -258,12 +258,12 @@ $t = $texts[$lang];
 
     <footer>
 
-    <div class="footer-logo">
-        <h2>Aurora Resort</h2>
-    </div>
+        <div class="footer-logo">
+            <h2>Aurora Resort</h2>
+        </div>
 
         <div class="footer-container">
-            
+
 
             <div>
 
@@ -281,7 +281,7 @@ $t = $texts[$lang];
 
                 <p>
                     +373 69 000 000 <br>
-                     auroraresort@email.com
+                    auroraresort@email.com
                 </p>
 
             </div>
@@ -290,20 +290,20 @@ $t = $texts[$lang];
 
                 <div class="social-media">
 
-    <h3>Aurora Resort</h3>
+                    <h3>Aurora Resort</h3>
 
-    <div class="social-links">
+                    <div class="social-links">
 
-        <a href="https://instagram.com" target="_blank">Instagram<br></a>
-        <a href="https://facebook.com" target="_blank">Facebook<br></a>
-        <a href="https://tiktok.com" target="_blank">TikTok<br></a>
-        <a href="https://youtube.com" target="_blank">YouTube</a>
+                        <a href="https://instagram.com" target="_blank">Instagram<br></a>
+                        <a href="https://facebook.com" target="_blank">Facebook<br></a>
+                        <a href="https://tiktok.com" target="_blank">TikTok<br></a>
+                        <a href="https://youtube.com" target="_blank">YouTube</a>
 
-    </div>
-          
+                    </div>
+
+                </div>
+
             </div>
-
-        </div>
 
     </footer>
 

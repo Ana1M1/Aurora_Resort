@@ -1,12 +1,12 @@
 const languageSelect =
-document.getElementById("languageSelect");
+  document.getElementById("languageSelect");
 
 languageSelect.addEventListener("change", () => {
 
-    const selectedLanguage =
+  const selectedLanguage =
     languageSelect.value;
 
-    window.location.href =
+  window.location.href =
     "index.php?lang=" + selectedLanguage;
 
 });
@@ -20,7 +20,7 @@ themeButton.addEventListener("click", function () {
 
   if (currentBodyBg.includes(lightBg)) {
     body.style.background = "#b49a74";
-   
+
     themeButton.innerText = "✵";
   } else {
     body.style.background = lightBg;

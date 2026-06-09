@@ -10,7 +10,6 @@ body {
     color: #3f2f23;
 }
 
-/* HERO */
 
 .hero {
 
@@ -47,11 +46,11 @@ body {
 }
 
 .logo {
-    color: #ffffff(190, 134, 134);
-   
+
+
     font-size: 70px;
     font-weight: normal;
-    text-shadow: 2px 2px 10px #ffffff(0, 0, 0, 0.6);
+
     color: #ffffff;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
     margin-top: 100px;
@@ -89,7 +88,7 @@ body {
 }
 
 .hero-button {
-border-radius: 20px;
+    border-radius: 20px;
     width: 240px;
 
     padding: 14px;
@@ -109,7 +108,6 @@ border-radius: 20px;
     background: white;
 }
 
-/* CONTENT */
 
 .content-section {
     width: 90%;
@@ -169,7 +167,6 @@ border-radius: 20px;
     line-height: 1.8;
 }
 
-/* LOCATION */
 
 .location-section {
     margin-top: 60px;
@@ -200,7 +197,6 @@ border-radius: 20px;
     object-fit: cover;
 }
 
-/* RESERVATION */
 
 .reservation-text {
 
@@ -211,7 +207,6 @@ border-radius: 20px;
     font-size: 18px;
 }
 
-/* FOOTER */
 
 footer {
 
@@ -269,7 +264,6 @@ footer {
     line-height: 1.8;
 }
 
-/* RESPONSIVE */
 
 @media(max-width:900px) {
 
@@ -324,7 +318,6 @@ footer {
     background: none;
 }
 
-/*CONTACT PAGE */
 
 .contact-header {
 
@@ -352,7 +345,7 @@ footer {
     transition: 0.3s ease;
 }
 
-/* HERO */
+
 .contact-hero {
 
     position: relative;
@@ -361,7 +354,7 @@ footer {
     overflow: hidden;
 }
 
-/* IMAGINEA */
+
 .contact-image {
 
     width: 100%;
@@ -370,7 +363,6 @@ footer {
     display: block;
 }
 
-/* CONȚINUT STÂNGA */
 .contact-content {
 
     position: absolute;
@@ -383,7 +375,7 @@ footer {
     color: #2b1f16;
 }
 
-/* TITLU */
+
 .contact-content h2 {
 
     font-size: 42px;
@@ -391,7 +383,7 @@ footer {
     margin-bottom: 40px;
 }
 
-/* BLOCURI INFO */
+
 .contact-block {
 
     margin-bottom: 30px;
@@ -410,7 +402,7 @@ footer {
     line-height: 1.6;
 }
 
-/* TEXT FINAL */
+
 .contact-footer-text {
 
     margin-top: 40px;
@@ -418,10 +410,8 @@ footer {
     text-align: center;
 }
 
-/* ================================================
-   AUTH PAGES (sign_up, login)
-   ================================================ */
- 
+
+
 .auth-header {
     background: #d8cfbf;
     text-align: center;
@@ -431,13 +421,13 @@ footer {
     align-items: center;
     gap: 12px;
 }
- 
+
 .auth-logo {
     font-size: 50px;
     font-weight: normal;
     color: #2e2218;
 }
- 
+
 .auth-hero {
     position: relative;
     width: 100%;
@@ -446,7 +436,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
- 
+
 .auth-bg-img {
     position: absolute;
     inset: 0;
@@ -455,7 +445,7 @@ footer {
     object-fit: cover;
     z-index: 0;
 }
- 
+
 .auth-card {
     position: relative;
     z-index: 2;
@@ -464,50 +454,50 @@ footer {
     padding: 45px 50px;
     width: 90%;
     max-width: 520px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
 }
- 
+
 .auth-title {
     font-size: 32px;
     font-weight: normal;
     color: #2e2218;
     margin-bottom: 25px;
 }
- 
+
 .auth-form {
     display: flex;
     flex-direction: column;
     gap: 14px;
     margin-bottom: 20px;
 }
- 
+
 .auth-form input {
     width: 100%;
     padding: 12px 16px;
     border: none;
     border-radius: 20px;
-    background: rgba(255,255,255,0.85);
+    background: rgba(255, 255, 255, 0.85);
     font-size: 15px;
     font-family: Georgia, serif;
     color: #3f2f23;
     outline: none;
     transition: box-shadow 0.2s;
 }
- 
+
 .auth-form input:focus {
     box-shadow: 0 0 0 2px #a8896a;
 }
- 
+
 .auth-password-row {
     display: flex;
     gap: 10px;
     align-items: center;
 }
- 
+
 .auth-password-row input {
     flex: 1;
 }
- 
+
 .auth-submit-btn {
     padding: 12px 22px;
     background: transparent;
@@ -520,12 +510,12 @@ footer {
     white-space: nowrap;
     transition: 0.3s;
 }
- 
+
 .auth-submit-btn:hover {
     background: #a8896a;
     color: white;
 }
- 
+
 .auth-bottom {
     display: flex;
     align-items: center;
@@ -535,7 +525,7 @@ footer {
     color: #5a3e2b;
     flex-wrap: wrap;
 }
- 
+
 .auth-book-btn {
     padding: 10px 20px;
     background: transparent;
@@ -548,12 +538,12 @@ footer {
     transition: 0.3s;
     white-space: nowrap;
 }
- 
+
 .auth-book-btn:hover {
     background: #6b4726;
     color: white;
 }
- 
+
 .auth-error {
     background: rgba(180, 60, 60, 0.15);
     border: 1px solid #c0392b;
@@ -563,7 +553,7 @@ footer {
     font-size: 14px;
     margin-bottom: 15px;
 }
- 
+
 .auth-success {
     background: rgba(60, 140, 80, 0.15);
     border: 1px solid #27ae60;
@@ -574,17 +564,15 @@ footer {
     margin-bottom: 20px;
     text-align: center;
 }
- 
-/* ================================================
-   BOOKING / DASHBOARD PAGE
-   ================================================ */
- 
+
+
+
 .booking-page {
     width: 90%;
     max-width: 900px;
     margin: 50px auto 80px;
 }
- 
+
 .booking-title {
     text-align: center;
     font-size: 22px;
@@ -593,81 +581,81 @@ footer {
     margin-bottom: 35px;
     color: #3f2f23;
 }
- 
+
 .booking-guest {
     margin-bottom: 30px;
 }
- 
+
 .booking-guest h3 {
     font-size: 20px;
     font-weight: normal;
     color: #6b4726;
     margin-bottom: 8px;
 }
- 
+
 .booking-guest p {
     font-size: 16px;
     line-height: 1.6;
 }
- 
+
 .booking-sub {
     color: #7a6350;
     font-size: 14px !important;
 }
- 
+
 .booking-section {
     margin-bottom: 40px;
 }
- 
+
 .booking-section h3 {
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 20px;
     color: #3f2f23;
 }
- 
+
 .room-cards {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
 }
- 
+
 .room-card {
     flex: 1;
     min-width: 220px;
     background: #f5ede0;
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
 }
- 
+
 .room-card img {
     width: 100%;
     height: 160px;
     object-fit: cover;
 }
- 
+
 .room-card .room-label {
     font-size: 15px;
     color: #6b4726;
     padding: 12px 15px 4px;
 }
- 
+
 .room-card p {
     font-size: 13px;
     color: #5a3e2b;
     padding: 4px 15px 15px;
     line-height: 1.5;
 }
- 
-/* FORM GRID */
- 
+
+
+
 .booking-form {
     margin-top: 10px;
 }
- 
+
 .booking-grid {
     display: flex;
     gap: 40px;
@@ -677,7 +665,7 @@ footer {
     background: #f5ede0;
     border-radius: 16px;
 }
- 
+
 .booking-col {
     flex: 1;
     min-width: 180px;
@@ -685,7 +673,7 @@ footer {
     flex-direction: column;
     gap: 12px;
 }
- 
+
 .booking-col h4 {
     font-size: 15px;
     font-weight: normal;
@@ -694,7 +682,7 @@ footer {
     border-bottom: 1px solid #d4b896;
     padding-bottom: 6px;
 }
- 
+
 .booking-col label {
     display: flex;
     align-items: center;
@@ -705,19 +693,19 @@ footer {
     flex-direction: column;
     align-items: flex-start;
 }
- 
+
 .booking-col input[type="checkbox"] {
     width: 16px;
     height: 16px;
     cursor: pointer;
     margin-right: 4px;
 }
- 
+
 .booking-col label:has(input[type="checkbox"]) {
     flex-direction: row;
     align-items: center;
 }
- 
+
 .booking-col input[type="date"] {
     padding: 8px 12px;
     border: 1px solid #c4a882;
@@ -728,20 +716,20 @@ footer {
     color: #3f2f23;
     width: 100%;
 }
- 
+
 .counter-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
 }
- 
+
 .counter {
     display: flex;
     align-items: center;
     gap: 10px;
 }
- 
+
 .counter button {
     width: 28px;
     height: 28px;
@@ -757,20 +745,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
- 
+
 .counter button:hover {
     background: #a8896a;
     color: white;
 }
- 
+
 .counter span {
     font-size: 15px;
     min-width: 20px;
     text-align: center;
 }
- 
-/* TOTAL */
- 
+
+
 .booking-total {
     display: flex;
     justify-content: space-between;
@@ -782,13 +769,13 @@ footer {
     font-size: 17px;
     color: #3f2f23;
 }
- 
+
 .total-value {
     font-size: 22px;
     color: #6b4726;
     font-weight: bold;
 }
- 
+
 .booking-confirm-btn {
     display: block;
     margin: 0 auto 15px;
@@ -802,14 +789,13 @@ footer {
     cursor: pointer;
     transition: 0.3s;
 }
- 
+
 .booking-confirm-btn:hover {
     background: #6b4726;
     color: white;
 }
- 
-/* LOGOUT */
- 
+
+
 .booking-logout {
     display: flex;
     align-items: center;
@@ -822,7 +808,7 @@ footer {
     font-size: 14px;
     color: #7a6350;
 }
- 
+
 .logout-btn {
     padding: 10px 25px;
     background: transparent;
@@ -834,29 +820,27 @@ footer {
     cursor: pointer;
     transition: 0.3s;
 }
- 
+
 .logout-btn:hover {
     background: #c0392b;
     color: white;
 }
- 
-/* RESPONSIVE AUTH + BOOKING */
- 
+
 @media (max-width: 700px) {
- 
+
     .auth-card {
         padding: 30px 22px;
     }
- 
+
     .booking-grid {
         flex-direction: column;
         padding: 20px;
     }
- 
+
     .room-cards {
         flex-direction: column;
     }
- 
+
     .booking-logout {
         flex-direction: column;
         text-align: center;
