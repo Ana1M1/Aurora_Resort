@@ -55,19 +55,19 @@ $user = getLoggedUser();
  
             <div class="room-card">
                 <span class="room-label">Deluxe Room</span>
-                <img src="images/deluxe_room.jpg" alt="Deluxe Room">
+                <img src="images/deluxe.jpg" alt="Deluxe Room">
                 <p>A refined and comfortable space designed for relaxation.</p>
             </div>
  
             <div class="room-card">
                 <span class="room-label">Royal Suite</span>
-                <img src="images/royal_suite.jpg" alt="Royal Suite">
+                <img src="images/Royal_Suite.avif" alt="Royal Suite">
                 <p>An exclusive suite with premium services, and a truly elegant living experience.</p>
             </div>
  
             <div class="room-card">
                 <span class="room-label">Family Suite</span>
-                <img src="images/family_suite.jpg" alt="Family Suite">
+                <img src="images/amenajare_dormitor.webp" alt="Family Suite">
                 <p>A spacious and cozy suite designed for families, combining comfort, functionality, and elegance.</p>
             </div>
  

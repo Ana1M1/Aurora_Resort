@@ -57,4 +57,3 @@ $_SESSION['user'] = [
  
 header('Location: dashboard.php?welcome=1');
 exit;
- 

@@ -47,9 +47,11 @@ body {
 }
 
 .logo {
+    color: #ffffff(190, 134, 134);
    
     font-size: 70px;
     font-weight: normal;
+    text-shadow: 2px 2px 10px #ffffff(0, 0, 0, 0.6);
     color: #ffffff;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
     margin-top: 100px;
@@ -59,7 +61,7 @@ body {
 .top-button,
 .language-select {
 
-    
+
     background: #f0e5d7;
 
     padding: 10px 22px;
