@@ -282,7 +282,8 @@ $t = $texts[$lang];
 
                 <p>
                     +373 69 000 000 <br>
-                    auroraresort@email.com
+                    auroraresort@email.com <br>
+               <a class="footer-name" href="https://github.com/Ana1M1"> Site created by Ana Mihailov</a>    
                 </p>
 
             </div>

@@ -846,3 +846,8 @@ footer {
         text-align: center;
     }
 }
+
+.footer-name {
+    text-decoration: none;
+    color:  #7a6350;
+}
